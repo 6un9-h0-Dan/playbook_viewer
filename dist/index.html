@@ -3,14 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>UNIT 42 PLAYBOOK VIEWER</title>
-    <link href="https://fonts.googleapis.com/css?family=Jura:300|Rajdhani|Inconsolata" rel="stylesheet">
-    <link rel="icon" type="image/png" href="imgs/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="imgs/favicon-16x16.png" sizes="16x16">
-    <link href="./css/bootstrap-tour-standalone.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
-    <!--<script src='./js/jquery.min.js'></script>-->
-    <script src="./js/bootstrap-tour-standalone.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jura:300|Rajdhani|Inconsolata">
+    <link rel="icon" type="image/png" href="./imgs/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="./imgs/favicon-16x16.png" sizes="16x16">
+    <link href="../src/css/bootstrap-tour-standalone.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script src="./bundle.js"></script>
 </head>
 
 
@@ -19,7 +17,8 @@
     <div class="box header">
         <span>PLAYBOOK VIEWER</span></div>
     <div class="box sidebar">
-        <a href="https://researchcenter.paloaltonetworks.com/unit42/" target="_blank"> <img src='imgs/u42logo.png' alt=''></a>
+        <a href="https://researchcenter.paloaltonetworks.com/unit42/" target="_blank"> <img src='./imgs/u42logo.png'
+                                                                                            alt=''></a>
         <span>PLAYBOOKS</span><br>
 
         <div class="btn playbook" id="playbook_oilrig" pb_file="oilrig.json" onclick="">OILRIG</div>
@@ -63,8 +62,5 @@
         | <a style="color:#95989a" href="https://oasis-open.github.io/cti-documentation/stix/intro">STIX 2.0</a>
     </div>
 </div>
-
-
-<script src="js/index.js"></script>
 </body>
 </html>

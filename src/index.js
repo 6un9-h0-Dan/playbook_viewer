@@ -1,4 +1,10 @@
-let pb_url = "playbook_json/";
+import $ from "jquery";
+window.jQuery = $;
+window.$ = $;
+import Tour from "bootstrap-tour";
+
+// let pb_url = "playbook_json/";
+let pb_url = "../dist/playbook_json/";
 let current_playbook = null;
 let current_intrusion_set = null;
 
@@ -503,6 +509,6 @@ const tour = new Tour({
 });
 
 tour.init();
-tour.start();
+// tour.start();
 // always start the tour
-// tour.restart();
+tour.restart();
